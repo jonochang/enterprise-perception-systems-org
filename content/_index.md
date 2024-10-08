@@ -48,3 +48,17 @@ Continuously monitors the performance of agents, assessing their accuracy, effic
 7. Visualization
 
 Produces detailed visual representations of data, such as charts, maps, and reports, helping users to interpret insights and make informed decisions.
+
+### An enterprise's journey
+
+Enterprise Perception Systems (EPS) evolve through distinct stages of maturity, with each stage reflecting increased standardization, consistency, and optimization in perception workflows. These stages outline the enterprise’s progression from a fragmented, ad-hoc approach to a sophisticated system capable of producing reliable and repeatable outcomes.
+
+At the lowest maturity level (Level 0), organizations operate without consistent processes or standards. Perception workflows are carried out ad-hoc, based on individual intuition or specific needs of the moment. Decision-making at this stage is often reactive, with little to no historical data or standard criteria guiding actions. Consequently, outcomes vary widely, making it difficult to ensure accountability or to replicate successful strategies.
+
+As organizations mature into Level 1, they begin to standardize workflows for collecting and assessing data. Every time a perception task is performed, the same procedures and taxonomies are followed, ensuring consistency in reporting. At this level, decision-making also starts to become more systematic, as actions are taken based on a set of predefined responses tied to specific outcomes. For example, if a particular road defect is identified, the same repair protocol is initiated each time, reducing variability in responses.
+
+Level 2 marks a significant shift, where organizations begin to aggregate and compare data from different workflows. Not only do perception workflows across the organization adhere to standardized taxonomies and processes, but the decisions and actions taken in response to insights become increasingly data-driven. Organizations develop more complex action protocols, allowing them to weigh different courses of action based on comparative analysis. For instance, assessments may now include cost-benefit analyses that guide whether manual inspections or automated LIDAR assessments are more appropriate, depending on the situation.
+
+By the time an organization reaches Level 3, it operates with a highly optimized, feedback-driven system. Not only are perception workflows and assessments standardized across the enterprise, but decision-making and action protocols have matured into dynamic, quantitative systems. Actions are no longer reactive or one-size-fits-all; they are guided by second-order metrics that continuously refine how the organization responds to different scenarios. This might include adjusting maintenance schedules based on long-term cost-effectiveness, or deploying certain agents (human or machine) based on their proven efficiency in similar situations. Actions become proactive, driven by predictive insights and historical performance data, and are regularly updated to improve overall efficiency and accuracy.
+
+Across this journey, decision-making moves from being largely intuitive and disjointed, to a fully systematized and optimized process where decisions are informed by real-time data and iterative improvement. This holistic evolution of both perception and action allows organizations to achieve not only more accurate insights but also better strategic outcomes, maximizing the effectiveness of their resources.
