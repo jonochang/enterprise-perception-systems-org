@@ -11,7 +11,7 @@ Data acquisition is the foundational step in any Enterprise Perception System (E
 
 Data acquisition in an EPS can be broadly categorized based on the nature of the data and the type of “sensor” collecting it. Both machines and humans contribute valuable data, though their methods of collection and the nature of their inputs differ. The balance between human-generated and machine-generated data in organizations has shifted dramatically in recent decades.
 
-Human-Generated Data: The Traditional Approach
+#### Human-Generated Data: The Traditional Approach
 
 Historically, most enterprises and industries relied heavily on human-generated data to drive their decision-making processes. This was due in part to the lack of automated systems that could provide real-time data at scale. As a result, organizations were structured around human inputs, where observations, reports, and assessments were the primary sources of insight.
 
@@ -21,7 +21,7 @@ Examples include:
 - Manual reports or annotations: Workers in manufacturing or operations logged observations, incidents, and metrics manually. These reports captured qualitative nuances—like product defects or safety issues—that could be critical for decision-making.
 - Surveys and forms: Feedback was often collected through structured forms or surveys, whether for employee performance evaluations, customer satisfaction, or compliance auditing. This method, while useful, often introduced delays and biases in the reporting process.
 
-The Shift to Machine-Generated Data
+#### The Shift to Machine-Generated Data
 
 With the advent of modern sensing technologies, organizations began shifting from reliance on human-generated data to machine-generated data. The rise of digital sensors, IoT devices, and automation systems enabled enterprises to collect data in real time, at a scale and speed that was previously impossible. Machine-generated data provided an objective, consistent, and often more reliable source of information, enabling more accurate and timely decision-making.
 
