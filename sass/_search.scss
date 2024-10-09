@@ -1,61 +1,33 @@
-.search-container {
-  display: none;
-
-  &--is-visible {
-    display: block;
-    width: 100%;
-  }
-
   #search {
     width: 100%;
-    display: block;
-    border:none;
-    border-left: 1px solid $color;
-    padding:1px 0;
+    padding: 1vw 0;
+    @include color(background, --bg-color,  $theme-light-bg-color);
+    @include color(color, --first-text-color, $theme-light-first-text-color);
     text-align: left;
-    line-height: $baseline;
-    font-size: $font-size;
-    font-family:$font-family;
-    color:$color;
-    background:transparent;
-  }
-
-  #search:focus {
-    outline:none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 1.625rem;
     border:none;
+    border-bottom:2px solid #000;
   }
 
   .search-results {
     &__header {
-      font-weight: bold;
-      padding: 1rem 0rem;
+      font-style: italic;
+      margin:1rem 0 0;
     }
 
     &__items {
-      margin: 0 2vw;
-      padding: 0;
-      list-style: circle;
+      list-style: decimal-leading-zero;
     }
 
     &__item {
-      margin-bottom: 1rem;
+   margin:1rem 0;
     }
 
     &__teaser {
-     
+      font-size: 1rem;
     }
   }
-}
 
-#on_right {
-  display: block;
-  text-align: right;
-  margin-bottom: $baseline;
-}
 
-#search-ico {
-  font-family: 'FabricMDL2Icons';
-  cursor: pointer;
-  font-size: $baseline;
-  line-height: 1;
-}
+
