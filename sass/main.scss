@@ -130,7 +130,7 @@ nav {
     margin:0 0 1rem 0;
     font-size: 1.625rem;
   }
-  
+
   button {
     font-size: 1.625rem;
   }
@@ -171,7 +171,7 @@ main {
     ul, ol {
       margin:0 0 1rem 1rem;
     }
-  
+
     a:visited {
       color:blueviolet;
     }
@@ -181,6 +181,15 @@ main {
     max-width:100%;
   }
 }
+
+footer {
+  padding:4vw;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top:2.375rem;
+  margin:1rem 0 0;
+}
+
 
 #taxonomies {
   display: flex;
@@ -203,7 +212,7 @@ main {
   list-style: none;
   @include color(color, --second-text-color, $theme-light-second-text-color);
   margin-top: 1rem;
- 
+
   ul {
     margin-left:1rem;
     list-style: none;
@@ -220,11 +229,11 @@ main {
 }
 
 @media screen and (max-width: 1023px) {
- 
+
   body {
   font-size:1rem;
   }
-  
+
   nav, main {
     width:92vw;
   }
@@ -235,11 +244,11 @@ main {
     color:royalblue;
     font-size:1.375rem;
   }
-  
+
   select {
     font-size:1.375rem;
   }
-  
+
   .search-results__items {
     list-style-position:inside;
   }
@@ -250,4 +259,3 @@ main {
 }
 
 @import "search";
-

@@ -6,7 +6,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta http-equiv="content-type" content="text/html; charset=utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-      <title>{% block title %}{{ config.title }}{% endblock title %}</title>     
+      <title>{% block title %}{{ config.title }}{% endblock title %}</title>
       <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}">
       <script type="text/javascript" src="{{ get_url(path='initialize-theme.js') | safe }}"></script>
     </head>
@@ -18,16 +18,16 @@
             <button type="button" id="theme-light-button" class="theme-button" onclick="enableTheme('light', true)">&#9706;</button>
             <button type="button" id="theme-dark-button"  class="theme-button enabled" onclick="enableTheme('dark', true)">&#9705;</button>
           </form>
-          <a href="/search">&#8981;</a>       
+          <a href="/search">&#8981;</a>
         </div>
 
       {% block nav %}
         <ul id="breadcrumbs">
           {% for tax in config.taxonomies %}
-            <li>/<a href="/{{tax.name}}/">{{tax.name}}</a>&nbsp;</li> 
+            <li>/<a href="/{{tax.name}}/">{{tax.name}}</a>&nbsp;</li>
           {% endfor %}
         </ul>
-        <h1>{{ config.title }}</h1>  
+        <h1>{{ config.title }}</h1>
           {{ macro::tree() }}
       {% endblock nav %}
       </nav>
@@ -50,7 +50,7 @@
             <ul id="toc">
               {% for h2 in section.toc %}
                 <li><a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                {% if h2.children %}<ul>        
+                {% if h2.children %}<ul>
                   {% for h3 in h2.children %}
                   <li><a href="{{ h3.permalink | safe }}">{{ h3.title }}</a></li>
                 {% endfor %}
@@ -67,6 +67,11 @@
       {% endblock content %}
       </main>
 
+      <footer>
+        <small>
+          <a href="https://highlighter.ai">Highlighter</a> is developed and supported by leading Artificial Intelligence / Machine Learning company, <a href="https://www.silverpond.com.au">Silverpond</a>.  |  Together, we respectfully acknowledge the Traditional Owners of the land we work on, and we pay respect to their Elders past and present.  |   Use of highlighter.ai is subject to our <a href="https://cdn.prod.website-files.com/62e87f399d15f5ea7a59e25a/62f5a086791f0a267a62585a_9401_Terms%20of%20Use.pdf">Terms of Use</a> and <a href="https://cdn.prod.website-files.com/62e87f399d15f5ea7a59e25a/62f5a086270e0cc3da07184d_9401_Privacy%20Policy.pdf">Privacy Policy</a>. |  © 2024 All rights reserved.
+        </small>
+      </footer>
       <script type="text/javascript" src="{{ get_url(path='update-theme-elements.js') | safe }}"></script>
 
       <script>
